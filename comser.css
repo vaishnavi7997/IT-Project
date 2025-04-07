@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.952);
+}
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.502);
+    width: 55px;
+    height: 35px;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.navbar-brand span{
+  font-size: larger;
+  font-weight: bolder;
+}
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+.hero {
+    background: url(assets/banner.jpg) no-repeat center center/cover ;
+    height: 40vh;
+    color: white;
+    text-align: center;
+    padding: 100px 5px;
+}
+.hero button{
+    height: 35px;
+    border-radius: 5px;
+}
+.card {
+    height: 60vh;
+    margin-bottom: 50px; 
+    transition: transform 0.2s; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card-title {
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding: 10px;
+  text-align: center; 
+}
+
+.card-text {
+  text-align: center; 
+}
+
+.btn {
+  display: block; 
+  margin: 0 auto; 
+}
+

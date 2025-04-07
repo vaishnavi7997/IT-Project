@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.952);
+}
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.502);
+    width: 55px;
+    height: 35px;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.navbar-brand span{
+  font-size: larger;
+  font-weight: bolder;
+}
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+.hero {
+    background: url(assets/banner.jpg) no-repeat center center/cover ;
+    height: 55vh;
+    color: white;
+    text-align: center;
+    padding: 150px 10px;
+}
+
+.card {
+    height: 25vh;
+    background-color:rgba(245, 245, 220, 0.393);
+    margin-bottom: 35px;
+    transition: transform 0.2s;
+}
+.card-title{
+    color: brown;
+    font-size:x-large;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.671);
+}
+.card-title, .card-text {
+    text-align: center;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

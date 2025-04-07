@@ -1,0 +1,80 @@
+
+
+body {
+    padding-top: 80px; 
+    background-color: azure;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.navbar-brand span {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.container {
+    padding: 20px;
+}
+
+label {
+    font-weight: 500; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+    }
+
+    .navbar-brand span {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand span {
+        font-size: 0.9rem;
+    }
+
+    .nav-link {
+        font-size: 0.8rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    form {
+        padding: 15px;
+    }
+}

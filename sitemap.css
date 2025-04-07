@@ -1,0 +1,32 @@
+
+body {
+    padding-top: 30px; 
+    background-color: rgba(250, 235, 215, 0.562);
+}
+
+.container {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px; 
+}
+
+a {
+    color: rgba(255, 0, 0, 0.546); 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+h2 {
+    margin-bottom: 10px; 
+}
+

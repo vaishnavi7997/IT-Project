@@ -1,0 +1,57 @@
+/* style.css */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.952);
+}
+.navbar-toggler{
+    background-color: white;
+    width: 55px;
+    height: 35px;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.navbar-brand span{
+  font-size: larger;
+  font-weight: bolder;
+}
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+#casestudy{
+    height: 50vh;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url(assets/banner.jpg);
+}
+
+.card {
+    margin-top: 40px;
+    margin-bottom: 10px; 
+    height: 25vh;
+    background-color: rgba(0, 255, 255, 0.075);
+    border-color: rgba(128, 128, 128, 0.484);
+    transition: transform 0.2s; 
+
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.705); 
+}
+
+.card-title {
+  text-align: center; 
+}
+
+.card-text {
+  text-align: center; 
+}
+.btn {
+  display: block; 
+  margin: 0 auto; 
+}
+

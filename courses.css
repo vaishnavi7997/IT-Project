@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 90px;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.952);
+}
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.502);
+    width: 55px;
+    height: 35px;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.navbar-brand span{
+  font-size: larger;
+  font-weight: bolder;
+}
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+.modal-body{
+    text-align: center;
+    padding: 20px;
+}
+.modal-name, .modal-course, .modal-mail, .modal-mobile{
+    padding: 10px;
+    width: 85%;
+    border-color: rgba(128, 128, 128, 0.573);
+    margin-bottom: 20px;
+}
+#course{
+    margin-bottom: 35px;
+    border-color: black;
+}
+.card{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.308);
+}
+.card:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.575);
+}
+.courses{
+    height: 35vh;
+    object-fit: cover;
+}

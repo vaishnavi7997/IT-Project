@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.952);
+}
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.502);
+    width: 55px;
+    height: 35px;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.navbar-brand span{
+  font-size: larger;
+  font-weight: bolder;
+}
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+#about{
+    background-color: rgba(245, 245, 220, 0.386);
+}
+.hero {
+    background: url(assets/banner.jpg) no-repeat center center/cover ;
+    height: 70vh;
+    color: white;
+    text-align: center;
+    padding: 200px 10px;
+}
+.hero button{
+    height: 35px;
+    border-radius: 5px;
+}
+#mission{
+    font-size: larger;
+}
+#mission strong{
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.team img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#course{
+    margin-bottom: 35px;
+    border-color: black;
+}
+.card{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.308);
+}
+.card:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.575);
+}
+.courses{
+    height: 35vh;
+    object-fit: cover;
+}
+#contact-container{
+    box-shadow:  black;
+    background-color: rgba(250, 235, 215, 0.489);
+    padding: 20px;
+}
+.form-label{
+    font-size: larger;
+}
+.form-control{
+    border-color: rgba(0, 0, 0, 0.247);
+}
+.modal-body{
+    text-align: center;
+    padding: 20px;
+}
+.modal-name, .modal-course, .modal-mail, .modal-mobile{
+    padding: 10px;
+    width: 85%;
+    border-color: rgba(128, 128, 128, 0.573);
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.792);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px; 
+    color: #007bff; 
+    font-size: 20px; 
+}
+
+.social-links a:hover {
+    color: #0056b3; 
+}
+
+.card-img-top {
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-body {
+    flex-grow: 1;
+}
