@@ -1,6 +1,6 @@
 # 💼 IT Center – Responsive Website Project
 
-🔗 [Click here to view the live project][(https://it-project-pink.vercel.app/)]
+🔗 Live Demo: [(https://it-project-pink.vercel.app/)]
 --
 
 ## 📌 Project Description
